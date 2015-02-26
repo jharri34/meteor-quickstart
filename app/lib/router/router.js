@@ -9,3 +9,10 @@ Router.route('/', function() {
 }, {
 	name: 'Home'
 });
+
+Router.route('/login-wall', function() {
+	this.render('LoginWall');
+}, {
+	name: 'LoginWall',
+	controller: 'LoginRequired'
+});

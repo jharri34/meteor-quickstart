@@ -1,0 +1,38 @@
+@import '/client/style/imports.import.less';
+
+.panel .panel-body {
+  #login-dropdown-list {
+    display: block;
+
+    & > a.dropdown-toggle {
+      display: none;
+    }
+
+    & > .dropdown-menu {
+      // reset all bootstrap and inherent css styles
+      display: block;
+      position: relative;
+      top: initial;
+      left: initial;
+      float: none;
+      margin: 0;
+      font-size: initial;
+      z-index: 0;
+      background-color: transparent;
+      border: none;
+      border-radius: 0;
+      box-shadow: none;
+      background-clip: initial;
+      min-width: initial;
+      padding: initial;
+
+
+      // not a navbar when in the panel
+      // only looks weird on xs
+      & > .navbar-form {
+          margin: 4px 0;
+          padding: 0px 1px;
+      }
+    }
+  }
+}
