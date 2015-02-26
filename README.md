@@ -2,6 +2,16 @@
 
 Jumping off point for new Meteor apps, with step-by-step commits of the creation process.
 
+# Run me!
+
+```
+> git clone https://github.com/brendanfturner/meteor-quickstart.git
+> cd meteor-quickstart/app 
+> meteor 
+
+then load 'localhost:3000' in your web browser
+```
+
 ## Custom Packages
 
 * [nemo64:bootstrap](https://github.com/Nemo64/meteor-bootstrap)

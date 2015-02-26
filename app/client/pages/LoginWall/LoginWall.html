@@ -1,3 +1,13 @@
 <template name="LoginWall">
-  <h1>It looks like you're logged in!</h1>
+  {{#Layout template="Page"}}
+	
+		{{#contentFor "header"}}
+			<h1>You are logged in!</h1>
+			<p>This app used the meteor package <a href="https://github.com/iron-meteor/iron-router">iron:router</a> to create a "route controller" for this route. Before you arrived on this page, iron:router checked to see if you were logged in; if you were then you got here no problem, but if you weren't you had to create an account or log in.</p>
+		{{/contentFor}}
+
+
+
+
+	{{/Layout}}
 </template>
